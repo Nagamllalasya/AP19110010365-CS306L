@@ -1,0 +1,146 @@
+Enter identifiers into the symbol table (Y or N) : Y
+1 variable
+2 function
+3 structure
+4 pointer
+5 array
+Enter your choice : 1
+Enter the name of the variable : a
+Enter the datatype of the variable : int
+Enter the scope of the variable (global, inside function, inside class): global
+Information of a in the symbol table : 
+['variable', 'a', 'int', 'global', 1851494231024]
+Enter identifiers into the symbol table (Y or N) : Y
+1 variable
+2 function
+3 structure
+4 pointer
+5 array
+Enter your choice : 2
+Enter the name of the function : b
+Enter the return type of the function : float
+Enter the number of parameters : 2
+Enter the name and datatype of the parameters : 
+a int
+b int
+Enter the parameter passing methods (passing by value, passing by reference) : pbv
+Information of b in the symbol table : 
+['function', 'b', 'float', 2, [['a', 'int'], ['b', 'int']], 'pbv', 1851494215344]
+Enter identifiers into the symbol table (Y or N) : Y
+1 variable
+2 function
+3 structure
+4 pointer
+5 array
+Enter your choice : 3
+Enter the name of the structure : c
+Enter the number of members of the structure : 2
+Enter the name and datatype of the members : 
+a char
+b char
+Information of c in the symbol table : 
+['structure', 'c', 2, [['a', 'char'], ['b', 'char']], 1851494121840]
+Enter identifiers into the symbol table (Y or N) : Y
+1 variable
+2 function
+3 structure
+4 pointer
+5 array
+Enter your choice : 4
+Enter the name of the pointer : d
+Enter the data type type of the pointer : int  
+Enter the name of the variable whose address the pointer is holding  : n
+Information of d in the symbol table : 
+['pointer', 'd', 'int', 'n', 1851494121072, 1851494125424]
+Enter identifiers into the symbol table (Y or N) : Y
+1 variable
+2 function
+3 structure
+4 pointer
+5 array
+Enter your choice : 2
+Enter the name of the function : g
+Enter the return type of the function : char
+Enter the number of parameters : 1
+Enter the name and datatype of the parameters : 
+num float
+Enter the parameter passing methods (passing by value, passing by reference) : pbr
+Information of g in the symbol table : 
+['function', 'g', 'char', 1, [['num', 'float']], 'pbr', 1851494511984]
+Enter identifiers into the symbol table (Y or N) : Y
+1 variable
+2 function
+3 structure
+4 pointer
+5 array
+Enter your choice : 3
+Enter the name of the structure : s
+Enter the number of members of the structure : 2
+Enter the name and datatype of the members : 
+a int
+b int 
+Information of s in the symbol table : 
+['structure', 's', 2, [['a', 'int'], ['b', 'int']], 1851494125168]
+Enter identifiers into the symbol table (Y or N) : Y
+1 variable
+2 function
+3 structure
+4 pointer
+5 array
+Enter your choice : 5
+Enter the name of the array : ls
+Enter the data type of the array : char
+Enter the number of dimensions of the array : 2
+Enter the value of the dimensions: 
+2
+3
+Information of ls in the symbol table : 
+['array', 'ls', 'char', 2, ('2', '3'), 1851502538800]
+Enter identifiers into the symbol table (Y or N) : N
+
+
+
+Symbol Table
+
+
+        Variables
+
+
+name    datatype        scope           address
+a       int             global          1851494231024
+---------------------None---------------------
+
+
+        Pointers
+
+
+name    datatype        identifier holding              value                   address
+d       int                     n                       1851494121072                   1851494125424
+---------------------None---------------------
+
+
+        Functions
+
+
+name    returntype      no. of para     (name,datatype)                 passing method                  address
+g       char            1               [['a', 'int'], ['b', 'int']]            pbr                     1851494511984
+g       char            1               [['num', 'float']]              pbr                     1851494511984
+---------------------None---------------------
+
+
+        Structures
+
+
+name    members (name,datatype)                         address
+s       2       [['a', 'char'], ['b', 'char']]  1851494125168
+s       2       [['a', 'int'], ['b', 'int']]    1851494125168
+---------------------None---------------------
+
+
+        Arrays
+
+
+name    datatype        dim     dimvalue        address
+ls      char            2               ('2', '3')              1851502538800
+---------------------None---------------------
+PS C:\Users\H P\Desktop\week3>

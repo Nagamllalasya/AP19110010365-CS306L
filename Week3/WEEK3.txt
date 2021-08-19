@@ -1,0 +1,200 @@
+
+
+enter your choice: 1.create a symbol table 2.search in the symbol table
+
+1
+
+
+
+Enter the address:1000
+
+enter The label:data1
+
+
+
+Continue(y/n)?
+
+The Symbol Table is
+
+hashvalues address label
+
+0	 0	 
+
+1	 0	 
+
+2	 0	 
+
+3	 0	 
+
+4	 0	 
+
+5	 0	 
+
+6	 0	 
+
+7	 0	 
+
+8	 0	 
+
+9	 0	 
+
+10	 1000	 data1
+
+enter your choice: 1.create a symbol table 2.search in the symbol table
+
+1
+
+
+
+Enter the address:1004
+
+enter The label:data2
+
+
+
+Continue(y/n)?
+
+The Symbol Table is
+
+hashvalues address label
+
+0	 0	 
+
+1	 0	 
+
+2	 0	 
+
+3	 1004	 data2
+
+4	 0	 
+
+5	 0	 
+
+6	 0	 
+
+7	 0	 
+
+8	 0	 
+
+9	 0	 
+
+10	 1000	 data1
+
+enter your choice: 1.create a symbol table 2.search in the symbol table
+
+1
+
+
+
+Enter the address:1006
+
+enter The label:data3
+
+
+
+Continue(y/n)?
+
+The Symbol Table is
+
+hashvalues address label
+
+0	 0	 
+
+1	 0	 
+
+2	 0	 
+
+3	 1004	 data2
+
+4	 0	 
+
+5	 1006	 data3
+
+6	 0	 
+
+7	 0	 
+
+8	 0	 
+
+9	 0	 
+
+10	 1000	 data1
+
+enter your choice: 1.create a symbol table 2.search in the symbol table
+
+1
+
+
+
+Enter the address:1100
+
+enter The label:data5
+
+
+
+Continue(y/n)?
+
+The Symbol Table is
+
+hashvalues address label
+
+0	 1100	 data5
+
+1	 0	 
+
+2	 0	 
+
+3	 1004	 data2
+
+4	 0	 
+
+5	 1006	 data3
+
+6	 0	 
+
+7	 0	 
+
+8	 0	 
+
+9	 0	 
+
+10	 1000	 data1
+
+enter your choice: 1.create a symbol table 2.search in the symbol table
+
+2
+
+enter the label: 4
+
+
+
+The label is not present in the symbol table
+
+
+
+enter your choice: 1.create a symbol table 2.search in the symbol table
+
+2
+
+enter the label: 5
+
+
+
+The label is not present in the symbol table
+
+
+
+enter your choice: 1.create a symbol table 2.search in the symbol table
+
+2
+
+enter the label: 2 data3
+
+
+
+The label --data3-- is present in the symbol table at address:1006
+
+
+
+enter your choice: 1.create a symbol table 2.search in the symbol table
+
